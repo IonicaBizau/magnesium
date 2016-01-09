@@ -1,8 +1,14 @@
+"use strict";
+
 // Dependencies
-const Electronify = require("electronify");
+const electronify = require("electronify")
+    , menu = require('menu')
+    ;
 
 // Create the app
-var app = Electronify(__dirname + "/app/index.html");
+let app = electronify(__dirname + "/app/index.html");
 
-app.on("ready", function () {
+app.on("ready", () => {
+    var appMenu = require("./menu")(app, app.mainWindow);
+    app.mainWindow.setMenu(menu.buildFromTemplate(appMenu));
 });
