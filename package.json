@@ -4,7 +4,7 @@
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
   "bin": {
-    "magnesium": "npm start"
+    "magnesium": "./bin/magnesium"
   },
   "scripts": {
     "start": "electron .",
@@ -50,7 +50,9 @@
       },
       {
         "p": "Then start it running `magnesium` (this will change when we have everything packed up)."
-      }
+      },
+      { "p": "You can edit the preferences in *Magnesium > Preferences*" },
+      { "p": "![](http://i.imgur.com/MY1TzfR.png)" }
     ]
   },
   "devDependencies": {}

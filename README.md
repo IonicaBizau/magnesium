@@ -1,6 +1,6 @@
 [![magnesium](http://i.imgur.com/E2pcEiM.png)](#)
 
-# magnesium [![Support this project][donate-now]][paypal-donations]
+# `$ magnesium` [![Support this project][donate-now]][paypal-donations]
 
 A terminal emulator based on Electron.
 
@@ -14,6 +14,10 @@ npm i -g magnesium
 ```
 
 Then start it running `magnesium` (this will change when we have everything packed up).
+
+You can edit the preferences in *Magnesium > Preferences*
+
+![](http://i.imgur.com/MY1TzfR.png)
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].

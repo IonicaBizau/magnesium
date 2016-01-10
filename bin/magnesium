@@ -1,0 +1,7 @@
+if [ "$1" = "--help" ]
+then
+    echo 'Just run `magnesium` for now. In the future you will install it as app.'
+    exit 0;
+fi
+
+npm start
