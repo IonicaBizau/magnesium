@@ -31,7 +31,7 @@
   "dependencies": {
     "electronify": "^1.3.0",
     "photon": "github:connors/photon",
-    "web-term": "^4.6.0",
+    "web-term": "^4.7.0",
     "electron-prebuilt": "^0.36.3",
     "electron-rebuild": "^1.0.2"
   },
