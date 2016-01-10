@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   viewBox="0 0 400 400.00001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/ionicabizau/Documents/magnesium/app/img/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4696">
+      <stop
+         style="stop-color:#34495e;stop-opacity:1"
+         offset="0"
+         id="stop4698" />
+      <stop
+         style="stop-color:#2c3e50;stop-opacity:1"
+         offset="1"
+         id="stop4700" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4696"
+       id="linearGradient4702"
+       x1="22.857143"
+       y1="676.64789"
+       x2="373.57144"
+       y2="1028.0764"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="52.032158"
+     inkscape:cy="251.52015"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36216)">
+    <g
+       id="g4704"
+       transform="translate(5.7220459e-6,7.9003908e-6)">
+      <rect
+         ry="134.06294"
+         rx="134.06294"
+         y="674.86237"
+         x="22.500208"
+         height="354.99957"
+         width="354.99957"
+         id="rect4684"
+         style="opacity:1;fill:url(#linearGradient4702);fill-opacity:1;stroke:none;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4686"
+         y="856.19214"
+         x="64.486717"
+         style="font-style:normal;font-weight:normal;font-size:26.66666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f1c40f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:180px;font-family:Raleway;-inkscape-font-specification:'Raleway Heavy';fill:#f1c40f"
+           y="856.19214"
+           x="64.486717"
+           id="tspan4688"
+           sodipodi:role="line">Mg</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:26.66666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="88.829613"
+         y="963.86218"
+         id="text4690"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4692"
+           x="88.829613"
+           y="963.86218"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:90px;font-family:Raleway;-inkscape-font-specification:'Raleway Heavy';fill:#ecf0f1">Term</tspan></text>
+    </g>
+  </g>
+</svg>

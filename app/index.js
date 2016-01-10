@@ -1,9 +1,17 @@
+const WebTerm = require("web-term");
+
+var $ = require("web-term/bin/public/js/jquery.js");
+$.ajax = function (options) {
+    if (options.url === "/api/settings/get") {
+        WebTerm.readSettings(function (err, data) {
+            options.success(data);
+        });
+    }
+};
 require("web-term/bin/public/js/term.js");
 require("web-term/bin/public/js/blm.js");
 require("web-term/bin/public/js/web-term.js");
 require("./electron-io");
-
-const WebTerm = require("web-term");
 
 var appIo = SocketIO.listen();
 
@@ -49,3 +57,5 @@ appIo.sockets.on("connection", socket => {
         terminal.paste(callback);
     });
 });
+
+WebTerm._watchConfig();

@@ -1,4 +1,29 @@
+"use strict";
+
+const electronify = require("electronify")
+    , BrowserWindow = require("browser-window")
+    , Menu = require('menu')
+    ;
+
 module.exports = function menu (app, mainWindow) {
+
+    function openWindow(doc, options) {
+        let win = new BrowserWindow(options);
+        win.loadURL(`file://${__dirname}/../app/${doc}.html`);
+        win.setMenu(Menu.buildFromTemplate([{
+            label: "Magnesium",
+            submenu: [
+                {
+                    label: "Close"
+                  , selector: "orderFrontStandardAboutPanel:"
+                  , click: function () {
+                        win.close();
+                    }
+                }
+            ]
+        }]));
+    }
+
     var menu = [
         {
             label: "Magnesium"
@@ -6,7 +31,24 @@ module.exports = function menu (app, mainWindow) {
                 {
                     label: "About Magnesium"
                   , selector: "orderFrontStandardAboutPanel:"
-                  , click: function () { require("shell").openExternal("http://github.com/IonicaBizau/magnesium") }
+                  , click: function () {
+                        openWindow("about", {
+                            height: 420,
+                            width: 500,
+                            resizable: false
+                        });
+                    }
+                }
+              , {
+                    label: "Preferences"
+                  , selector: "orderFrontStandardAboutPanel:"
+                  , click: function () {
+                        openWindow("settings", {
+                            height: 500,
+                            width: 890,
+                            resizable: false
+                        });
+                    }
                 }
               , {
                     type: "separator"
