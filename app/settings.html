@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Magnesium Settings</title>
+        <link rel="stylesheet" href="node_modules/web-term/bin/public/css/settings.css">
+        <script src="settings.js"></script>
+    </head>
+    <body>
+        <div class="fluid bag">
+            <h1>Magnesium <small>Settings</small></h1>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <h2>General</h2>
+                        <div class="form-group">
+                            <label>Font Size</label>
+                            <input type="number" class="form-control" placeholder="Terminal font size" data-field="general.font_size" data-convert-to="number">
+                        </div>
+                        <div class="form-group">
+                            <label>Custom Start command</label>
+                            <input type="text" class="form-control" placeholder="The command to run when opening the terminal." data-field="general.custom_command">
+                        </div>
+                        <div class="form-group">
+                            <label>Shell</label>
+                            <input type="text" class="form-control" placeholder="Terminal font size" data-field="general.shell">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2>Colors</h2>
+                        <div class="form-group">
+                            <label>Palette</label>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.0">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.1">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.2">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.3">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.4">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.5">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.6">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.7">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.8">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.9">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.10">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.11">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.12">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.13">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.14">
+                                </div>
+                                <div class="col">
+                                    <input type="color" class="form-control" data-field="colors.palette.15">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-form btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
