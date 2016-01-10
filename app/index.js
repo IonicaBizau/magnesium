@@ -1,6 +1,3 @@
-// Dependencies
-const Remote = require("remote");
-
 require("web-term/bin/public/js/term.js");
 require("web-term/bin/public/js/blm.js");
 require("web-term/bin/public/js/web-term.js");
