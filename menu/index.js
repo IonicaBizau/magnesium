@@ -28,6 +28,19 @@ module.exports = function menu (app, mainWindow) {
             ]
         }
       , {
+            label: "Development"
+          , submenu: [
+                {
+                    label: "Open Developer Tools"
+                  , click: function () { mainWindow.openDevTools(); }
+                }
+              , {
+                    label: "Reload"
+                  , click: function () { mainWindow.reload(); }
+                }
+            ]
+        }
+      , {
             label: "Help"
           , submenu: [
                 {
