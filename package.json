@@ -1,8 +1,11 @@
 {
   "name": "magnesium",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
+  "bin": {
+    "magnesium": "npm start"
+  },
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,11 +30,28 @@
   "homepage": "https://github.com/IonicaBizau/magnesium#readme",
   "dependencies": {
     "electronify": "^1.3.0",
-    "photon": "connors/photon",
-    "web-term": "^4.6.0"
-  },
-  "devDependencies": {
+    "photon": "github:connors/photon",
+    "web-term": "^4.6.0",
     "electron-prebuilt": "^0.36.3",
     "electron-rebuild": "^1.0.2"
-  }
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/E2pcEiM.png",
+    "ex_img": "http://i.imgur.com/eaglZ2i.png",
+    "description": "*Magnesium Terminal* is heavily under development. Check out the [issues](https://github.com/IonicaBizau/magnesium/issues) and see how you can contribute!",
+    "installation": [
+      {
+        "h2": "Installation"
+      },
+      {
+        "code": {
+          "content": "npm i -g magnesium"
+        }
+      },
+      {
+        "p": "Then start it running `magnesium` (this will change when we have everything packed up)."
+      }
+    ]
+  },
+  "devDependencies": {}
 }
