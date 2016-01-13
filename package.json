@@ -1,6 +1,6 @@
 {
   "name": "magnesium",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta1",
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
   "bin": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "electron .",
+    "postinstall": "electron-rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
