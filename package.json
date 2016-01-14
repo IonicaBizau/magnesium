@@ -1,6 +1,6 @@
 {
   "name": "magnesium",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
   "bin": {
@@ -52,8 +52,12 @@
       {
         "p": "Then start it running `magnesium` (this will change when we have everything packed up)."
       },
-      { "p": "You can edit the preferences in *Magnesium > Preferences*" },
-      { "p": "![](http://i.imgur.com/MY1TzfR.png)" }
+      {
+        "p": "You can edit the preferences in *Magnesium > Preferences*"
+      },
+      {
+        "p": "![](http://i.imgur.com/MY1TzfR.png)"
+      }
     ]
   },
   "devDependencies": {}
