@@ -1,3 +1,4 @@
+
 [![magnesium](http://i.imgur.com/E2pcEiM.png)](#)
 
 # `$ magnesium` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/magnesium.svg)](https://www.npmjs.com/package/magnesium) [![Downloads](https://img.shields.io/npm/dt/magnesium.svg)](https://www.npmjs.com/package/magnesium) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
@@ -15,14 +16,18 @@ npm i -g magnesium
 
 Then start it running `magnesium` (this will change when we have everything packed up).
 
+
 You can edit the preferences in *Magnesium > Preferences*
+
 
 ![](http://i.imgur.com/MY1TzfR.png)
 
-## How to contribute
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## License
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
