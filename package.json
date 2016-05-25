@@ -1,6 +1,6 @@
 {
   "name": "magnesium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
   "bin": {
@@ -69,6 +69,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
