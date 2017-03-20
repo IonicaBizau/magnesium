@@ -1,6 +1,6 @@
 {
   "name": "magnesium",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
   "bin": {
@@ -23,7 +23,7 @@
     "term",
     "electron"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/magnesium/issues"
@@ -65,12 +65,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
