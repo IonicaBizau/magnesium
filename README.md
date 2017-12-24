@@ -14,9 +14,11 @@
 [![magnesium](http://i.imgur.com/eaglZ2i.png)](#)
 
 ## Installation
+
 ```
 npm i -g magnesium
 ```
+
 
 Then start it running `magnesium` (this will change when we have everything packed up).
 
