@@ -1,6 +1,6 @@
 {
   "name": "magnesium",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A terminal emulator based on Electron.",
   "main": "lib/index.js",
   "bin": {
@@ -72,6 +72,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
